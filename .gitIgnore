@@ -1,0 +1,17 @@
+# 文件
+*.code-workspace
+Todo.md
+剧情待办.md
+
+# 目录
+/Plugins
+/.vscode
+/Content
+/Intermediate
+/Raw
+/Binaries
+/Saved
+/DerivedDataCache
+
+# 临时
+/Source
