@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "{1275D395-412A-99BA-16B6-5EAFD44A309C}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -13,33 +13,15 @@
 				"Engine",
 				"Slate",
 				"SlateCore",
-				"UnrealEd",
 				"ChaosCaching",
 				"CoreUObject",
 				"AIModule",
-				"NavigationSystem"
-			]
-		},
-		{
-			"Name": "TerManager",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"UMG",
-				"Engine",
+				"NavigationSystem",
 				"GeometryScriptingCore",
-				"GeometryScriptingEditor",
 				"GeometryFramework",
-				"PCG"
-			]
-		},
-		{
-			"Name": "ModManager",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"UMG",
-				"Engine"
+				"PCG",
+				"PCGGeometryScriptInterop",
+				"AudioWidgets"
 			]
 		}
 	],
@@ -141,6 +123,10 @@
 		},
 		{
 			"Name": "CascadeToNiagaraConverter",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioWidgets",
 			"Enabled": true
 		}
 	],
